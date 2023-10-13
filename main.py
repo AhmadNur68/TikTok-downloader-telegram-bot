@@ -11,7 +11,7 @@ import logging
 config = configparser.ConfigParser()
 config.read("settings.ini")
 admin_id = config['bot']['admin_id'].split()
-TOKEN = ''
+TOKEN = '5700571215:AAErMI64o3YvKLKX-kFEHLQQtyPX94_vxAw'
 
 with sqlite3.connect('database.db') as con:
     cur = con.cursor()
